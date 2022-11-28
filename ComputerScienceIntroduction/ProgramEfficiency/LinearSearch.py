@@ -12,6 +12,7 @@ def linear_search(L, e):
 
 print(linear_search([1, 2, 6, 7, 9, 4, 8, 5], 8))
 
+
 """ Linear on sorted list O(n)"""
 
 def linear_search(L, e):
@@ -22,8 +23,6 @@ def linear_search(L, e):
         if L[i] > e:
             return False
     return found
-
-
 
 
 print(linear_search([1, 2, 6, 7, 9, 4, 8, 5], 8))

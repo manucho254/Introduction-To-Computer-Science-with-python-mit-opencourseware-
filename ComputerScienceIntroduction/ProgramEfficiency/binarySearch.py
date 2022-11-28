@@ -1,6 +1,6 @@
 
 """ 
-    binary search O(log n)
+    binary search O(n log n)
     The list must be sorted for this to work
 """
 
